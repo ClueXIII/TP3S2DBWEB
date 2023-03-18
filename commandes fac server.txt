@@ -1,0 +1,5 @@
+commande scp local to server(à faire en local)
+scp -r C:\Users\quent\Desktop\github uapv2305333@pedago.univ-avignon.fr:~/Donnees_itinerantes_depuis_serveur_pedagogique/public_html/
+
+lien serveur : 
+https://pedago.univ-avignon.fr/~uapv2305333/
