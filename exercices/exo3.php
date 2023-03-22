@@ -68,6 +68,12 @@ exo 3
     foreach ($sports as $sport => $url) {
         echo "$sport (<a HREF=\"$url\">$url</a>)<br/>\n";
     }
+
+    echo "<h3>Affichage du tableau trié selon les clés</h3>";
+    ksort($sports);
+    while (list($sport, $url) = each($sports)) {
+        echo "$sport (<a HREF=\"$url\">$url</a>)<br/>\n";
+    }
 ?>
 </body>
 </html>
